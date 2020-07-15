@@ -1,0 +1,38 @@
+<!-- copyright ZHIYAN CUI -- >
+<!-- 动力节点 作业
+ 		1. 用户名，密码，性别，爱好，学历，简介
+ 		2. 格式工整
+ -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>register</title>
+</head>
+<body background="https://images.unsplash.com/photo-1501630834273-4b5604d2ee31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80">
+	<h1 style="color:#ff9999">Welcome to YunDuan</h1>
+	<div align="center">
+		<form action="http://localhost:8080/oa/register" method="get">
+			username:&nbsp;&nbsp;<input type="text" name="username" placeholder="less than 10 character"> <br>
+			password:&nbsp;&nbsp;<input type="password" name="password"> <br>
+			gender:&nbsp;&nbsp;&nbsp;&nbsp;female<input type="radio" name="gender" value="0"> male<input type="radio" name="gender" value="1"><br>
+			interests:
+			sports<input type="checkbox" name="interest" value="sports">
+			reading<input type="checkbox" name="interest" value="reading">
+			Netflix<input type="checkbox" name="interest" value="Netflix">
+			Video Game<input type="checkbox" name="interest" value="video_game"><br>
+			profile: <br>
+			<textarea rows="10" cols="60" name="profile" placeholder = "Please introduce yourself..."></textarea><br>
+			<input type="submit" value="submit">
+			<input type="reset" value="reset">
+
+
+
+		</form>
+
+
+	</div>
+
+
+</body>
+</html>

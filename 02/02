@@ -1,0 +1,59 @@
+
+lecture 2
+request 路径 www。 浏览器向服务器发送请求，
+服务器response 
+	b -》s request
+	s -〉b respond
+浏览器request：
+	1. 直接在地址栏发送地址
+	2. 超链接
+	3. 用户填写表单，点击按钮，提交数据
+	1，2 两种方式本质一样，只是方式不同
+	请求路径可以是相对，也可以是绝对
+	url：www.baidu.com是绝对路径
+	统一资源定位符
+	相对路径：没有盘符，属于相对路径
+
+Notice:
+	utf-8
+	gdk
+
+
+列表：
+	无序列表 ul
+
+	有序列表 ol 
+		1.2.3.
+表单：form
+	收集用户数据，提交表单可以向服务器发送request，并且携带用户填写数据
+	properties:
+		1.action 用来指定请求路径，提交数据的时候，和href一样
+		2.method 用来指定表单提交的方式/方法
+			a。get 提交
+				提交的时候，数据会直接显示在浏览器的地址栏上面
+			b。post 提交
+				数据不会直接显示在浏览器的地址栏上
+			当method 缺的时候默认为get
+			直接在地址栏输入url 是get method
+	当一个表哥提交数据的时候，输入域必须有name
+		name=value&name=value...
+		对于文本框来说，不需要value属性，客户会写
+		不需要提交的数据，不要写name属性
+		不提交按钮，因为按钮的数据不需要被提交
+	input:
+		提交按钮 type = submit
+		submit有提交能力，但是需要放在form里，提交当前表单
+		普通 type = button 不具备提交表单的能力
+		type 不是随便写的，类型不一样显示的内容也不一样
+		type属性用来设置输入域空间展示的样式
+			text/submit/password/radio/checkbox
+
+	在一个html可以有多个form
+
+
+
+
+
+
+
+	
