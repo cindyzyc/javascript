@@ -1,0 +1,133 @@
+h3,p {
+	margin: 0px;
+	padding: 0px;
+}
+p{
+	font-size: 14px;
+	color: #9B9B9B;
+}
+a{
+	text-decoration: none;
+}
+#logo {
+	position: fixed;
+	left:70px;
+	top: 60px;
+	width: 10%;
+	height: 10%;
+}
+#register_form{
+	position: absolute;
+	right: 139px;
+	top: 25%;
+	width: 480px;
+	height: 85%;
+	border-radius: 10px;
+	background: rgba(255, 255, 255,0.75);
+
+}
+#welcome{
+	margin: 5% 0px 15% 15%
+}
+#intro h3{
+	font-size: 36px;
+	color: black
+}
+#form{
+	margin: 15px 0px 0px 0px
+}
+.name{
+	font-size: 20px;
+    color: #333;
+    letter-spacing: 0;
+    text-align: justify;
+    width: 82px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 15px;
+    font-weight: 200;
+    float: left
+}
+.text_input{
+	padding: 11px 10px;
+    max-height: 40px;
+    background: #fff;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 321px;
+    color: #000;
+
+}
+.verify_code{
+	font-size: 20px;
+    color: #333;
+    letter-spacing: 0;
+    text-align: justify;
+    width: 82px;
+    height: 40px;
+    
+}
+.verify{
+	width: 184px;
+    margin-right: 9px;
+    padding: 11px 10px;
+    max-height: 40px;
+    background: #fff;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #000;
+}
+#get_code{
+	padding: 11px 10px;
+    max-height: 40px;
+    background: #fff;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 126px;
+    color: #000;
+}
+#file_form{
+	padding-top:20px;
+}
+#submit{
+	background: rgba(102, 194, 255, 0.5);
+    border-radius: 25px;
+    width: 80%;
+    border: 1px solid #E0E0E0;
+    font-size: 20px;
+    color: #000;
+    height: 50px;
+    
+
+}
+
+#terms{
+	font-size: 13px;
+}
+.test{
+	position: absolute;
+	left: 70px;
+	bottom: -10px;
+	color: rgb(255,255,255);
+}
+/*#help{
+	position: absolute;
+	left: 70px;
+	bottom: 57px;
+	color: rgb(255,255,255);
+
+}*/
+
+
+
+
+
+
+
+
+
+
+

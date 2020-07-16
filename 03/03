@@ -1,0 +1,76 @@
+method
+	get
+		数据会在浏览器里面的地址栏上
+	post
+		数据没有在浏览器的地址栏上
+select multiple option 
+	<select size="" multiple>
+
+file 控件
+	作为文件上传使用
+	隐藏file
+		提交表单，但是内容被隐藏，数据给提交不给用户看到提交的数据
+	diabled 只读，不能改，可以被用户看到，但是不会提交数据
+	readonly 只读，不能改，可以被用户看到，会提交数据
+
+id 属性
+	一颗树
+	树上有很多节点，父节点下有子节点，子节点下还有子节点
+	每个节点都有id属性，id是这个节点对象的唯一表示，或者id是这个节点的身份证号，有唯一性
+	javascript 对以上form表单中的元素进行删减，来达到动态效果，需要先获取该节点对象，我们可以通过对方的id来获取该节点对象
+	html文档对应单词为document --》dom树上的节点进行删减
+div & span
+1. div- division，专门用来做网页布局，
+2. div vs span
+	div 默认独占一行，span不是
+
+css: cascading style sheet
+css 是样式语言，用来修饰html页面让页面更好看
+	1. 内联定义：
+		1. <标签，style=“样式名：样式值”></标签>
+		2. id 只能作用于某个节点，因为id不能重复
+			#id {
+
+			}
+			tag{
+
+			}
+			id选择的优先级比tag高
+		3.任何一个节点都有class属性，
+			.class{
+
+			}
+		4.优先级：
+			id > class > tag
+	2. 外部定义
+		<link rel="stylesheet" type="text/css" href="css/my.css">
+		建议大家都是用外部，便于维修
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

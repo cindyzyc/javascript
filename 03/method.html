@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>method</title>
+</head>
+<body>
+	<!-- 
+	get 请求提交的数据会显示在浏览器里 -->
+	<form action="http://localhost:8080/oa/login" method="get">
+		username <input type="text" name="username">
+		password<input type="password" name="password">
+		<input type="submit">
+	</form><br>
+	
+
+	<form action="http://localhost:8080/oa/login" method="post">
+		username <input type="text" name="username">
+		password<input type="password" name="password">
+		<input type="submit">
+	</form>
+
+
+	multiple 下拉列表可以一次性显示多个项目
+	<select name="province" size = "2"multiple>
+		<option value="">select</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+	</select>
+
+	<input type="file" >
+	<br>
+	<form action="http://localhost:8080/oa/save" method="get">
+		
+		usercode: <input type="hidden" name="usercode" value="1111"><br>
+		code: <input type="text" name="code"> <br>
+	</form>
+
+	<form action="http://localhost:8080/oa/save" method="get">
+		usercode<input type="text" name="usercode" value="1234" readonly>
+		code <input type="text" name="code" value="1234" disabled> <br>
+	</form>
+
+</body>
+</html>
